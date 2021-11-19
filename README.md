@@ -4,7 +4,7 @@
 
 Download and install python 3.6+ and pip. If you wanta more isolate environment, you can install `virtualenv` and install the dependencies on a virtual environment. For that you need to:
 
-Add pip command into your machine:
+If you don´t have Pip installed, follow these commands:
 
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -14,7 +14,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-Install:
+Install `virtualenv`:
 ```
 pip install virtualenv
 ```
