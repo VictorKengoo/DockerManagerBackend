@@ -1,4 +1,4 @@
-# Poseidon BFF
+# Docker Manager - Backend
 
 ## How to install
 
