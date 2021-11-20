@@ -2,9 +2,9 @@
 
 ## How to install
 
-Download and install python 3.6+ and pip. If you wanta more isolate environment, you can install `virtualenv` and install the dependencies on a virtual environment. For that you need to:
+Download and install python 3.8+ and pip.
 
-If you don´t have Pip installed, follow these commands:
+To help you installing pip, use these commands:
 
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -13,7 +13,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 python get-pip.py
 ```
-
+If you want to create a new self environment, install `virtualenv` and install the dependencies on a virtual environment. For that you need to:
 Install `virtualenv`:
 ```
 pip install virtualenv
@@ -24,12 +24,12 @@ Create a virtual env:
 virtualenv -p python venv
 ```
 
-Start virtualenv:
+Start virtualenv with this command:
 ```
 venv/Scripts/activate.bat
 ```
 
-Then on the root of the project run:
+On the root of the project run the pip install on the text file requirements (the requirements.txt will help you to install others libs that will be usefull):
 
 Linux:
 
